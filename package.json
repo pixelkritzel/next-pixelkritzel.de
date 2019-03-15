@@ -1,0 +1,26 @@
+{
+  "name": "next-pixelkritzel.de",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Timo Zoeller <timo@pixelkritzel.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.1",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@zeit/next-typescript": "^1.1.1"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
